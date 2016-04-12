@@ -4,6 +4,8 @@ var bodyParser = require('body-parser')
 var fs = require('fs')
 var jsonParser = bodyParser.json()
 
+app.set('port', (process.env.PORT || 3000))
+
 app.use(express.static('public'))
 
 var exec = require('child_process').exec
@@ -40,6 +42,6 @@ var create_unseen_arff = function (data, res) {
   })
 }
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
+app.listen(app.get('port'), function () {
+  console.log('Server Start at port ', app.get('port'))
 })
