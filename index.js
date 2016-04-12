@@ -20,6 +20,7 @@ var runCMD = function (result) {
   var cmd = "java -classpath 'public/resource/weka.jar' weka.classifiers.trees.J48 -l 'public/resource/mushroom.model' -T 'public/resource/mushroom_unseen.arff' -p 0"
   exec(cmd, function (error, stdout, stderr) {
     result(stdout.split('\n').filter((item) => item !== ''))
+    if (error) console.log(error)
   })
 }
 
@@ -29,7 +30,10 @@ var create_unseen_arff = function (data, res) {
   var outputFile = 'public/resource/mushroom_unseen.arff'
 
   fs.readFile(masterFile, 'utf8', (err, data) => {
-    fs.writeFile(outputFile, data + txt, function (err) {})
+    fs.writeFile(outputFile, data + txt, function (err) {
+      if (err) console.log(err)
+    })
+    if (err) console.log(err)
   })
   runCMD((output) => {
     res(output)
