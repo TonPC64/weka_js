@@ -1,0 +1,92 @@
+{"Cap shape": [
+  {"name":"bell","value":"b"},
+  {"name":"conical","value":"c"},
+  {"name":"convex","value":"x"},
+  {"name":"flat","value":"f"},
+  {"name":"knobbed","value":"k"},
+  {"name":"sunken","value":"s"}
+],"Cap surface": [
+  {"name":"fibrous","value":"f"},
+  {"name":"grooves","value":"g"},
+  {"name":"scaly","value":"y"},
+  {"name":"smooth","value":"s"}
+],"Cap color": [
+  {"name":"brown","value":"n"},
+  {"name":"buff","value":"b"},
+  {"name":"cinnamon","value":"c"},
+  {"name":"gray","value":"g"},
+  {"name":"green","value":"r"},
+  {"name":"pink","value":"p"},
+  {"name":"purple","value":"u"},
+  {"name":"red","value":"e"},
+  {"name":"white","value":"w"},
+  {"name":"yellow","value":"y"}
+],"Bruises": [
+  {"name":"bruises","value":"t"},
+  {"name":"no","value":"f"}
+],"Odor": [
+  {"name":"almond","value":"a"},
+  {"name":"anise","value":"l"},
+  {"name":"creosote","value":"c"},
+  {"name":"fishy","value":"y"},
+  {"name":"foul","value":"f"},
+  {"name":"musty","value":"m"},
+  {"name":"none","value":"n"},
+  {"name":"pungent","value":"p"},
+  {"name":"spicy","value":"s"}
+],"Gill attachment": [
+  {"name":"attached","value":"a"},
+  {"name":"descending","value":"d"},
+  {"name":"free","value":"f"},
+  {"name":"notched","value":"n"}
+],"Gill spacing": [
+  {"name":"close","value":"c"},
+  {"name":"crowded","value":"w"},
+  {"name":"distant","value":"d"}
+],"Gill size": [
+  {"name":"broad","value":"b"},
+  {"name":"narrow","value":"n"}
+],"Gill color": [
+  {"name":"black","value":"k"},
+  {"name":"brown","value":"n"},
+  {"name":"buff","value":"b"},
+  {"name":"chocolate","value":"h"},
+  {"name":"gray","value":"g"},
+  {"name":"green","value":"r"},
+  {"name":"orange","value":"o"},
+  {"name":"pink","value":"p"},
+  {"name":"purple","value":"u"},
+  {"name":"red","value":"e"},
+  {"name":"white","value":"w"},
+  {"name":"yellow","value":"y"}
+],"Stalk shape": [
+  {"name":"enlarging","value":"e"},
+  {"name":"tapering","value":"t"}
+],"Stalk root": [
+  {"name":"bulbous","value":"b"},{"name":"club","value":"c"},{"name":"cup","value":"u"},{"name":"equal","value":"e"},{"name":"rhizomorphs","value":"z"},{"name":"rooted","value":"r"},{"name":"missing","value":"?"}
+],"Stalk surface above ring": [
+  {"name":"ibrous","value":"f"},{"name":"scaly","value":"y"},{"name":"silky","value":"k"},{"name":"smooth","value":"s"}
+],"Stalk surface below ring": [
+  {"name":"ibrous","value":"f"},{"name":"scaly","value":"y"},{"name":"silky","value":"k"},{"name":"smooth","value":"s"}
+],"Stalk color above ring": [
+{"name":"brown","value":"n"},{"name":"buff","value":"b"},{"name":"cinnamon","value":"c"},{"name":"gray","value":"g"},{"name":"orange","value":"o"},{"name":"pink","value":"p"},{"name":"red","value":"e"},{"name":"white","value":"w"},{"name":"yellow","value":"y"}
+],"Stalk color below ring": [
+{"name":"brown","value":"n"},{"name":"buff","value":"b"},{"name":"cinnamon","value":"c"},{"name":"gray","value":"g"},{"name":"orange","value":"o"},{"name":"pink","value":"p"},{"name":"red","value":"e"},{"name":"white","value":"w"},{"name":"yellow","value":"y"}
+],"Veil type": [
+{"name":"partial","value":"p"},{"name":"universal","value":"u"}
+],"Veil color": [
+{"name":"brown","value":"n"},{"name":"orange","value":"o"},{"name":"white","value":"w"},{"name":"yellow","value":"y"}
+],"Ring number": [
+{"name":"none","value":"n"},{"name":"one","value":"o"},{"name":"two","value":"t"}
+],"Ring type": [
+{"name":"cobwebby","value":"c"},{"name":"evanescent","value":"e"},{"name":"flaring","value":"f"},{"name":"large","value":"l"},{"name":"none","value":"n"},{"name":"pendant","value":"p"},{"name":"sheathing","value":"s"},{"name":"zone","value":"z"}
+],"Spore print color": [
+{"name":"black","value":"k"},{"name":"brown","value":"n"},{"name":"buff","value":"b"},{"name":"chocolate","value":"h"},{"name":"green","value":"r"},{"name":"orange","value":"o"},{"name":"purple","value":"u"},{"name":"white","value":"w"},{"name":"yellow","value":"y"}
+],"Population": [
+{"name":"abundant","value":"a"},{"name":"clustered","value":"c"},{"name":"numerous","value":"n"},{"name":"scattered","value":"s"},{"name":"several","value":"v"},{"name":"solitary","value":"y"}
+],"Habitat": [
+{"name":"grasses","value":"g"},{"name":"leaves","value":"l"},{"name":"meadows","value":"m"},{"name":"paths","value":"p"},{"name":"urban","value":"u"},{"name":"waste","value":"w"},{"name":"woods","value":"d"}
+]
+
+
+}
