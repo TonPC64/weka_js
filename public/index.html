@@ -23,25 +23,106 @@
         </nav>
         <div class="container">
             <br>
-
             <form ng-submit="post()">
 
                 <div class="row">
                     <div ng-repeat="use in formData">
                         <div class="input-field col s6 m4 l3 ">
-                            <select data-ng-model="form[$index]" ng-options="val.value as val.name for val in ::use"  material-select watch></select>
+                            <select data-ng-model="form[$index]" ng-options="val.value as val.name for val in ::use" material-select watch></select>
                             <label class="blue lighten-5 teal-text darken-4-text center" style="width:80%">{{labels[$index]}}</label>
                         </div>
                     </div>
 
                     <div class="input-field col s12 m12 l12 center">
-                        <button class="btn waves-effect waves-light light-blue darken-2 z-depth-0 " type="submit" name="action">Submit
+                        <button ng-click="post()" href="#modal1" class="modal-trigger btn waves-effect waves-light light-blue darken-2 z-depth-0 " type="submit" name="action">Submit
                             <i class="material-icons right">send</i>
                         </button>
                     </div>
                 </div>
-
             </form>
         </div>
+
+        <div id="modal1" class="modal modal-fixed-footer center">
+            <div class="modal-content " ng-show="showModel">
+                <h4 id="modalH">Result of Musroom classify is</h4>
+                <img class="responsive-img" ng-src="{{resImg}}" height="60%">
+                <h5>Propability is
+                    {{resRe}}</h5>
+            </div>
+            <div class="preloader-wrapper big active" ng-hide="showModel" style="margin-top:5%">
+                <div class="spinner-layer spinner-blue">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+
+                <div class="spinner-layer spinner-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+
+                <div class="spinner-layer spinner-yellow">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+
+                <div class="spinner-layer spinner-green">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer z-depth-0 blue-grey darken-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col l12 s12">
+                        <h5 class="white-text">HOMEWORK</h5>
+                        <div class="row valign-wrapper">
+                            <div class="col l1 s1">
+                                <a class="grey-text text-lighten-4 right " href="https://www.facebook.com/ton.piromplad"><img width="50px" class="circle responsive-img right" src="https://scontent.fbkk5-2.fna.fbcdn.net/v/t1.0-9/12592672_10204651244595919_4704722277505192626_n.jpg?oh=91b31a9d3fb36e765501478417144ac8&oe=57B1FDC8"></a>
+                            </div>
+                            <div class="col l11 s10">
+                                <p class="grey-text text-lighten-4 left">Made by Chanwit Piromplad IT_3RA 5606021610020
+                                    <br>KMUTNB Prachinburi campus.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <a class="grey-text text-lighten-4 left " href="https://www.facebook.com/ton.piromplad">© 2016 Ton Piromplad</a>
+                    <a class="grey-text text-lighten-4 right " href="">IT@KMUTNB</a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
